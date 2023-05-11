@@ -16,3 +16,6 @@ Estimate Read Time is a JavaScript script that calculates the estimated read tim
 ```html
 <script src="https://cdn.jsdelivr.net/gh/stakrastudio/read-time-estimator@master/read-time-estimator.js"></script>
 ```
+Alteratively, copy the javascript from the file directly and paste it custom footer code area as described in step 4. Make sure encapsulate the code in ```<script>...</script>``` tags.
+
+Ensure to publish the site and test on a live URL.
