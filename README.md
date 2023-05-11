@@ -8,7 +8,9 @@ Estimate Read Time is a JavaScript script that calculates the estimated read tim
 
 1. In the Webflow Designer, locate the element containing the text you wish to esitmate read time, such as the Rich Text Block, for example.
 2. Add the `estimate-read-time="true"` attribute to the element of which contains the main body of text.
-3. Add the `data-read-time-placeholder` attribute to another text element. This attribute will serve as a placeholder for displaying the read time.
+* `estimate-read-time` bing the atrribute 'name' and `true` being the atrribute 'value'.
+3. Add the `data-read-time-placeholder` attribute to a desired text element. This attribute will serve as a placeholder for displaying the read time.
+* `data-read-time-placeholder` bing the atrribute 'name' and the 'value' being empty.
 4. Include the JavaScript file estimate-read-time.js in your Webflow project using the Custom Code feature by:
 * Go to your Webflow project settings.
 * In the Custom Code tab, locate the Footer Code section.
